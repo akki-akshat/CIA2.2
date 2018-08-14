@@ -2,18 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/pen"
-        android:icon="@drawable/pen"
-        android:title="Pen"
+        android:id="@+id/exit"
+        android:icon="@drawable/ic_action_name"
+        android:title="Exit"
         app:showAsAction="ifRoom"/>
     <item
-        android:id="@+id/pencil"
-        android:icon="@drawable/pen"
-        android:title="Pencil" />
+        android:id="@+id/login"
+        android:title="Login" />
     <item
-        android:id="@+id/eraser"
-        android:title="Eraser" />
-    <item
-        android:id="@+id/notebook"
-        android:title="Notebook" />
+        android:id="@+id/newUser"
+        android:title="New User" />
 </menu>
